@@ -9,3 +9,5 @@ console.log(circumference("4.567abcdefgh") );
 
 console.log(circumference("abcdefgh"));
 // expected output: 0
+
+console.log(Number.parseFloat("4.567abcdefgh"));
