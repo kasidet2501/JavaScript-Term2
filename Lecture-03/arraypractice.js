@@ -28,5 +28,4 @@ for(let i = 0 ; i < furniture.length ; i++){
         console.log(char);
     }
     console.log("\n");
-    // furniture[i].forEach((char) => console.log('=>', char))
 }
