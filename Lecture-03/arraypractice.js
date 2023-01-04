@@ -22,6 +22,7 @@ console.log("\n******* For each item in this array console.log the letters in ea
 let furniture = ['Table', 'Chairs', 'Couch'];
 
 
+console.log("==== Use for of ====\n");
 for(let i = 0 ; i < furniture.length ; i++){
 
     for(let char of furniture[i]){
@@ -29,3 +30,15 @@ for(let i = 0 ; i < furniture.length ; i++){
     }
     console.log("\n");
 }
+
+
+
+console.log("==== Use for each ====\n");
+furniture.forEach(function(letter) {
+  for (let i = 0; i < letter.length; i++) {
+    console.log(letter[i]);
+  }
+  console.log("\n");
+});
+
+
