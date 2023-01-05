@@ -1,5 +1,3 @@
- 
-
 let arr1 = ["A", true, 2];
 
 //Push and pop
