@@ -1,3 +1,4 @@
+//Array Practice
 console.log("\n******* compare the 3 arrays array and find any common elements *******\n");
 
 let values1= ['Apple', 1, false];
