@@ -1,19 +1,19 @@
 function criticalCode() {
-throw "throwing an exception";
+  throw "throwing an exception";
 }
 
 function logError(theException) {
-console.log(theException);
+  console.log(theException);
 }
 
 //Try..Catch
 console.log("\n********Try..Catch********\n");
 
 try {
-criticalCode();
+  criticalCode();
 } catch (ex) {
-console.log("Got an error");
-logError(ex);
+  console.log("Got an error");
+  logError(ex);
 }
 
 //Throwing in Try..Catch

@@ -7,8 +7,8 @@ function areaCircle(r){
 return Math.PI * r*r;
 }
 
-function areaSar(w, l){
-return w*l;
+function areaSqr(w, l){
+    return w*l;
 }
 
 export { areaCircle, areaTriangle, areaSqr };

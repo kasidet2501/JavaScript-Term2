@@ -9,7 +9,7 @@ function sayHello(){
 }
 
 function cube(x){
-return X*X*X;
+  return x*x*x;
 }
 
 const add =(a,b) => a+b;
