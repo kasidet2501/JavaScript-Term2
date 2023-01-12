@@ -5,8 +5,12 @@ function findnumber(number){
     let numm = Array.from(ii);
     var str = "";
     for(let k = 0 ; k < 10 ; k++){
-        let found = numm.find(element => element == k.toString());
-        if(found == undefined) str += k.toString() + " ";
+
+        let check = numm.includes(k.toString());
+        if(check == false) str += k.toString() + " ";
+
+        // let found = numm.find(element => element == k.toString());
+        // if(found == undefined) str += k.toString() + " ";
     }
     return str;
 }
