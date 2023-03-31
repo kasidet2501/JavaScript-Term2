@@ -1,2 +1,1 @@
-# JavaScript
-JavaScripttt
+# JavaScript - ทดสอบตามบทที่เรียน JavaScript
